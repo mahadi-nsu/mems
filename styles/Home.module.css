@@ -13,7 +13,9 @@
 @media (max-width: 600px) {
   .desktop_img {
     background-image: url("/images/mobile.png");
-    background-size: contain;
+    /* background-size: contain; */
     background-position: center;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
